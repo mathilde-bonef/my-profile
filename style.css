@@ -1,0 +1,84 @@
+/* Colors and fonts */
+
+
+ body {
+background: #fbf4f9;
+color: rgb(50, 50, 50);
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+line-height: 20px;
+}
+
+.container {
+  width: 700px;
+  margin: 0px auto;
+text-align: center;
+} 
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px}
+}
+
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px}
+}
+
+.btn-pink {
+	background-color: #d15a7c;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 4px;
+}
+.card-white {
+margin: 40px auto;
+background: white;
+padding: 30px;
+border-radius: 4px;
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+border: 1px solid grey;
+}
+
+.img-pp {
+	border-radius: 50%;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+h1, h2, h3 {
+font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-size: 25px;
+	color: #d15a7c;
+}
+
+h2 {
+	color: #d15a7c;
+	font-size: 20px
+	font-weight: lighter;
+}
+
+a {
+	text-decoration: none;
+	color : #ce2e6c;
+	transition: color 0.3 ease;
+ }
+
+a:hover {
+	color: purple;
+}
+
+
+}
